@@ -103,7 +103,7 @@ class _MenuPageViewState extends State<MenuPageView> {
           ),
           Container(
             padding: const EdgeInsets.fromLTRB(14, 0, 14, 0),
-            height: 1000,
+            height: 600,
             child: GridView.builder(
               physics: NeverScrollableScrollPhysics(),
               itemBuilder: (context, index) {
